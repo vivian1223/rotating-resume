@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Accordion-React/static/css/main.af5dd7f0.css",
+    "main.js": "/Accordion-React/static/js/main.05e3aa15.js",
+    "static/js/787.4cafb2fa.chunk.js": "/Accordion-React/static/js/787.4cafb2fa.chunk.js",
+    "index.html": "/Accordion-React/index.html",
+    "main.af5dd7f0.css.map": "/Accordion-React/static/css/main.af5dd7f0.css.map",
+    "main.05e3aa15.js.map": "/Accordion-React/static/js/main.05e3aa15.js.map",
+    "787.4cafb2fa.chunk.js.map": "/Accordion-React/static/js/787.4cafb2fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af5dd7f0.css",
+    "static/js/main.05e3aa15.js"
+  ]
+}
