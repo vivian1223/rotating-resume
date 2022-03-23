@@ -1,18 +1,21 @@
 .resume {
-    max-width: 100%;
+    max-width: 70%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
 }
 
 .self_intro {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 70%;
-    @media screen and (max-width: 768px) {
-        max-width: 100%;
-        padding: 0 1rem;
-    }
+    margin-bottom: 3rem;
+    width: 70%;
     img {
         width: 150px;
         height: 150px;
@@ -32,6 +35,7 @@
     p:nth-of-type(2) {
         line-height: 1.5;
         margin: 1rem 0;
+        text-align: center;
     }
 
 }
@@ -46,7 +50,21 @@
     }
 }
 
-.icon-list {
+.skill {
+    width: 100%;
+    h2 {
+        font-size: 1.5rem;
+        color: #141f43;
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+}
+
+.skill-list{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-list-item{
+    width: calc(100%/3);
 }
