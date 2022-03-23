@@ -1,20 +1,9 @@
 import classNames from "classnames";
 import Intro from "./../../organisms/Intro";
+import { iconListData } from "./iconListData";
 
 import './index.scss';
 
-const iconListData = [
-    {
-        id:1,    
-        iconClass: "fa-brands fa-github",
-        link: 'https://github.com/vivian1223'
-    },
-    {
-        id:2,       
-        iconClass: "fa-brands fa-linkedin",
-        link: 'https://www.linkedin.com/in/vivian-yeh-36b21a1b7/'
-    },
-]
 
 const skillList =[
     {
