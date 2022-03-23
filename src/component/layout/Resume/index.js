@@ -1,29 +1,58 @@
 import classNames from "classnames";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Intro from "./../../organisms/Intro";
+import { iconListData } from "./iconListData";
 
 import './index.scss';
 
-const iconListData = [
+
+const skillList =[
     {
-        id:1,    
-        iconClass: "fa-brands fa-github",
-        link: 'https://github.com/vivian1223'
+        id:1,
+        title: '前端框架',
+        skills:['React、Redux', 'Vue 2、Vue 3', 'Vuex、Vue Router', 'TypeScript']
     },
     {
-        id:2,       
-        iconClass: "fa-brands fa-linkedin",
-        link: 'https://www.linkedin.com/in/vivian-yeh-36b21a1b7/'
+        id:1,
+        title: '前端框架',
+        skills:['React、Redux', 'Vue 2、Vue 3', 'Vuex、Vue Router', 'TypeScript']
     },
+    {
+        id:1,
+        title: '前端框架',
+        skills:['React、Redux', 'Vue 2、Vue 3', 'Vuex、Vue Router', 'TypeScript']
+    },
+    {
+        id:1,
+        title: '前端框架',
+        skills:['React、Redux', 'Vue 2、Vue 3', 'Vuex、Vue Router', 'TypeScript']
+    },
+    {
+        id:1,
+        title: '前端框架',
+        skills:['React、Redux', 'Vue 2、Vue 3', 'Vuex、Vue Router', 'TypeScript']
+    },
+    
 ]
 
-export const IconList = ({list}) => {
+export const SkillList = ({list}) => {
     return (
-        <ul className={classNames('icon-list')}>
+        <ul className={classNames('skill-list')}>
             {
-                list.map(({id ,iconClass, link})=> {
-                    return(
-                        <li key={id}><a href={link} target="_blank" rel="noreferrer"><FontAwesomeIcon className={classNames('icon')} icon={iconClass} /></a></li>
-                    )
+                list.map(({id, title, skills})=>{
+                    return (
+                      <li key={id} className={classNames('skill-list-item')}>
+                        <h3>{title}</h3>
+                        <ul>
+                            {skills.map((item,index) => {
+                                return (
+                                 <li key={index}>
+                                    {item}
+                                </li>   
+                                ) 
+                            })}
+                        </ul>
+                    </li>  
+                    ) 
                 })
             }
         </ul>
@@ -33,15 +62,10 @@ export const IconList = ({list}) => {
 const Resume = () => {
     return(
         <div className={classNames('resume')}>
-            <div className={classNames('self_intro')}>
-                <img src={require('./../../../images/selfie.jpg')} alt="Selfie" />
-                <h1>Vivian Yeh</h1>
-                <p>東吳大學 英文系 2015-2019</p>
-                <p>Hi！我是Vivian，是一名熱於學習的前端工程師，個性主動積極、擅長團隊協作及遠距溝通，熱愛研究新事物、閱讀與挑戰自我。</p>
-                <IconList list={iconListData}/>
-            </div>
+            <Intro iconListData={iconListData} />
             <div className={classNames('skill')}>
-
+                <h2>前端開發技能</h2>
+                <SkillList list={skillList}/>
             </div>
         </div>
         

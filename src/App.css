@@ -1,8 +1,6 @@
 .app {
-  text-align: center;
   padding-top: 2rem;
-  display: flex;
-  justify-content: center;
+  max-width: 100%;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
