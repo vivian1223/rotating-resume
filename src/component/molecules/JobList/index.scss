@@ -1,0 +1,45 @@
+
+.job-list-item {
+    position: relative;
+    padding: 0 2rem;
+    p:nth-of-type(1){
+        margin: 1.2rem 0;
+    }
+    p:nth-of-type(2){
+        margin-bottom: 0.8rem;
+        color: #8e9aaf;
+    }
+    span{
+       font-size: 1.2rem; 
+       font-weight: bold;
+    }
+    ul{
+        padding-bottom: 0.5rem;
+    }
+    li {
+        margin-bottom: 0.5rem;
+    }
+}
+
+.job-list-item::before{
+    content: "";
+    width: 3px;
+    height: 120%;
+    background-color: #8e9aaf;
+    position: absolute;
+    left: 0;
+}
+
+
+.job-list-item::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    z-index: 2;
+    background-color: #8e9aaf;
+    border-radius: 50%;
+    transform: translate(-30%);
+}
