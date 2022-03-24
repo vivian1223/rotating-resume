@@ -14,7 +14,7 @@ export const SkillList = ({list}) => {
                             {skills.map((item,index) => {
                                 return (
                                  <li key={index}>
-                                    {item}
+                                    - {item}
                                 </li>   
                                 ) 
                             })}
