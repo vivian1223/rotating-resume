@@ -7,7 +7,8 @@ import HorizontalLine from "../../atoms/HorizontalLine";
 import JobList from "../../molecules/JobList";
 import jobListData from "./jobListData";
 import FeatureList from "../../molecules/FeatureList";
-import sideProjectsListData from "./sideProjectslistData"
+import sideProjectsListData from "./sideProjectslistData";
+import aboutListData from "./aboutListData";
 
 import './index.scss';
 
@@ -29,6 +30,11 @@ const Resume = () => {
             <div className={classNames('feature')}>
                 <h2>Side Projects</h2>
                 <FeatureList list={sideProjectsListData}/>
+            </div>
+            <HorizontalLine />
+            <div className={classNames('about')}>
+                <h2>關於我</h2>
+                <FeatureList list={aboutListData}/>
             </div>
         </div>
         

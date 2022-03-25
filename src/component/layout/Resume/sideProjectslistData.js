@@ -8,7 +8,8 @@ const list = [
           "RWD 應用、效能美感兼具的響應式網站。"
         ],
         link: "https://vivian1223.github.io/Yoga_official_website/",
-        imgUrl: "https://i.imgur.com/UYwL0pw.png"  
+        imgUrl: "https://i.imgur.com/UYwL0pw.png",
+        linkName: "Demo"  
     },
     {
         id: 2,
@@ -19,7 +20,8 @@ const list = [
           "RWD 應用、效能美感兼具的響應式網站。"
         ],
         link: "https://vivian1223.github.io/PinPin/",
-        imgUrl: "https://i.imgur.com/232onWf.png"  
+        imgUrl: "https://i.imgur.com/232onWf.png",
+        linkName: "Demo"
     },
     {
         id: 3,
@@ -29,7 +31,8 @@ const list = [
           "RWD 應用、效能美感兼具的響應式網站。"
         ],
         link: "https://vivian1223.github.io/Course-admin/",
-        imgUrl: "https://i.imgur.com/VxgAUgf.png"  
+        imgUrl: "https://i.imgur.com/VxgAUgf.png",
+        linkName: "Demo"  
     },
 ]
 
