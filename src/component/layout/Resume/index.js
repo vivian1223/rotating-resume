@@ -6,6 +6,8 @@ import { skillListData } from "./skillListData";
 import HorizontalLine from "../../atoms/HorizontalLine";
 import JobList from "../../molecules/JobList";
 import jobListData from "./jobListData";
+import FeatureList from "../../molecules/FeatureList";
+import sideProjectsListData from "./sideProjectslistData"
 
 import './index.scss';
 
@@ -22,6 +24,11 @@ const Resume = () => {
             <div className={classNames('job')}>
                 <h2>工作經歷</h2>
                 <JobList list={jobListData} />
+            </div>
+            <HorizontalLine />
+            <div className={classNames('feature')}>
+                <h2>Side Projects</h2>
+                <FeatureList list={sideProjectsListData}/>
             </div>
         </div>
         
