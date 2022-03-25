@@ -6,13 +6,13 @@ const FeatureList = ({list = {}}) => {
     return(
         <ul>
             {
-                list.map(({ imgUrl, title, featureList, link})=> {
+                list.map(({ imgUrl, title, featureList, link, linkName})=> {
                     return(
                         <li className={classNames("feature-list-item")}>
                             <img src={imgUrl} alt={title} />
                             <div>
                                 <div>
-                                    <h3>{title}</h3>
+                                    <h3>{title ? title : ""}</h3>
                                     <ul>
                                         {
                                             featureList.map((item)=> {
@@ -25,7 +25,7 @@ const FeatureList = ({list = {}}) => {
                                         }
                                     </ul>
                                 </div>
-                                <a href={link} target="_blank" rel="noreferrer">Demo 連結</a>
+                                <a href={link} target="_blank" rel="noreferrer">{linkName}</a>
 
                             </div>
                         </li>
