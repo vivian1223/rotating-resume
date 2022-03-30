@@ -25,4 +25,4 @@ export const skillListData =[
         skills:['Postman', 'i18n', 'Debug', 'TOEIC 900、精通英文聽說讀寫', '遠端團隊協作']
     },
     
-]
+];
