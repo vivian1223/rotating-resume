@@ -27,13 +27,13 @@ const Rotate = ({children}) => {
             </div>
             <ul className={classNames('menu-content')}>
                     <li>
-                        <a href="https://youtu.be/ge4AVZKvhew"><FontAwesomeIcon icon={brands('youtube')} /></a>
+                        <a target="_blank" href="https://youtu.be/ge4AVZKvhew" rel="noreferrer"><FontAwesomeIcon icon={brands('youtube')} /></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/vivian_enlife/"><FontAwesomeIcon icon={brands('instagram')} /></a>
+                        <a target="_blank" href="https://www.instagram.com/vivian_enlife/" rel="noreferrer"><FontAwesomeIcon icon={brands('instagram')} /></a>
                     </li>
                     <li>
-                        <a href="https://open.firstory.me/story/cl09b5o6i2ozt088571f9th1l"><FontAwesomeIcon icon={solid('podcast')} /></a>
+                        <a target="_blank" href="https://open.firstory.me/story/cl09b5o6i2ozt088571f9th1l" rel="noreferrer"><FontAwesomeIcon icon={solid('podcast')} /></a>
                     </li>
                 </ul>
             
