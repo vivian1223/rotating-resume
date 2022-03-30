@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Accordion-React/static/css/main.af5dd7f0.css",
-    "main.js": "/Accordion-React/static/js/main.05e3aa15.js",
-    "static/js/787.4cafb2fa.chunk.js": "/Accordion-React/static/js/787.4cafb2fa.chunk.js",
-    "index.html": "/Accordion-React/index.html",
-    "main.af5dd7f0.css.map": "/Accordion-React/static/css/main.af5dd7f0.css.map",
-    "main.05e3aa15.js.map": "/Accordion-React/static/js/main.05e3aa15.js.map",
-    "787.4cafb2fa.chunk.js.map": "/Accordion-React/static/js/787.4cafb2fa.chunk.js.map"
+    "main.css": "/rotating-resume/static/css/main.aa4fa7e8.css",
+    "main.js": "/rotating-resume/static/js/main.357f6812.js",
+    "static/js/787.abb74a2c.chunk.js": "/rotating-resume/static/js/787.abb74a2c.chunk.js",
+    "static/media/selfie.jpg": "/rotating-resume/static/media/selfie.df0b9a12a6c5a4ddb8a3.jpg",
+    "index.html": "/rotating-resume/index.html",
+    "main.aa4fa7e8.css.map": "/rotating-resume/static/css/main.aa4fa7e8.css.map",
+    "main.357f6812.js.map": "/rotating-resume/static/js/main.357f6812.js.map",
+    "787.abb74a2c.chunk.js.map": "/rotating-resume/static/js/787.abb74a2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af5dd7f0.css",
-    "static/js/main.05e3aa15.js"
+    "static/css/main.aa4fa7e8.css",
+    "static/js/main.357f6812.js"
   ]
 }
